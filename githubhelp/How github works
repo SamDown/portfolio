@@ -1,1 +1,94 @@
-Test
+D'accord, voici un résumé de l'utilisation de GitHub avec des exemples de commandes, que tu peux ajouter à ton portfolio pour aider les débutants.
+
+### GitHub pour les Débutants : Guide Pratique avec Exemples de Commandes
+
+#### Qu'est-ce que GitHub ?
+GitHub est une plateforme de collaboration et de versionnage pour le code, utilisant Git. Il permet de suivre les modifications, collaborer avec d'autres, et gérer des projets de développement logiciel.
+
+#### Commandes Git de Base
+
+- **git init**
+  - Initialise un nouveau dépôt Git local.
+  - Exemple : 
+    ```bash
+    git init
+    ```
+
+- **git clone [url]**
+  - Clone un dépôt Git distant sur votre machine locale.
+  - Exemple : 
+    ```bash
+    git clone https://github.com/username/repository.git
+    ```
+
+- **git add [fichier]**
+  - Ajoute un fichier spécifique à la zone de transit (staging area) pour le prochain commit.
+  - Exemple : 
+    ```bash
+    git add monscript.py
+    ```
+
+- **git commit -m "[message de commit]"**
+  - Enregistre vos modifications dans le dépôt avec un message descriptif.
+  - Exemple : 
+    ```bash
+    git commit -m "Ajout d'une nouvelle fonctionnalité"
+    ```
+
+- **git push [remote] [branche]**
+  - Envoie les commits de votre branche locale vers la branche distante sur GitHub.
+  - Exemple : 
+    ```bash
+    git push origin main
+    ```
+
+- **git pull [remote]**
+  - Met à jour votre branche locale avec les dernières modifications de la branche distante.
+  - Exemple : 
+    ```bash
+    git pull origin main
+    ```
+
+- **git branch [nom de la branche]**
+  - Crée une nouvelle branche.
+  - Exemple : 
+    ```bash
+    git branch dev
+    ```
+
+- **git checkout [nom de la branche]**
+  - Bascule sur une autre branche.
+  - Exemple : 
+    ```bash
+    git checkout dev
+    ```
+
+- **git merge [nom de la branche]**
+  - Fusionne les modifications d'une autre branche dans la branche courante.
+  - Exemple : 
+    ```bash
+    git merge dev
+    ```
+
+#### Utiliser GitHub pour Collaborer
+
+- **Forker un Répertoire :**
+  - Créez votre propre copie d'un répertoire existant dans votre compte GitHub.
+  - Cliquez sur le bouton "Fork" sur une page de répertoire sur GitHub.
+
+- **Créer une Pull Request :**
+  - Proposez vos modifications pour être intégrées dans le projet d'origine.
+  - Après avoir poussé vos modifications sur GitHub, cliquez sur "New pull request" dans votre répertoire forké.
+
+#### Bonnes Pratiques
+
+- **Commit Petit et Souvent :** Des commits fréquents avec des messages clairs facilitent le suivi des modifications.
+- **Utiliser des Branches :** Travaillez sur des fonctionnalités ou des corrections dans des branches séparées pour éviter les conflits.
+- **Revue de Code :** Utilisez les pull requests pour la revue et les commentaires de code avant de fusionner.
+
+### Conclusion
+GitHub est un outil inestimable pour le développement logiciel collaboratif. En comprenant et en utilisant les commandes de base de Git, les développeurs peuvent gérer efficacement les versions de leur code et collaborer avec d'autres, indépendamment de leur emplacement géographique.
+
+---
+
+Ce guide est conçu pour les débutants et offre une vue d'ensemble pratique de l'utilisation de GitHub pour la gestion de projets de développement logiciel. Tu peux l'utiliser comme une ressource dans ton portfolio pour aider d'autres personnes à se lancer dans l'utilisation de GitHub.
