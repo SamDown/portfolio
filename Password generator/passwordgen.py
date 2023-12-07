@@ -1,17 +1,17 @@
 import random
 import string
 
-def generer_mot_de_passe(longueur):
-    lettres = string.ascii_letters
-    chiffres = string.digits
-    symboles = string.punctuation
+def generate_password(length):
+    letters = string.ascii_letters
+    digits = string.digits
+    symbols = string.punctuation
 
-    tous_caracteres = lettres + chiffres + symboles
+    all_characters = letters + digits + symbols
 
-    return ''.join(random.choice(tous_caracteres) for _ in range(longueur))
+    return ''.join(random.choice(all_characters) for _ in range(length))
 
-# Définir la longueur souhaitée pour le mot de passe
-longueur_mot_de_passe = 10
+# Define the desired length for the password
+password_length = 50
 
-# Générer et afficher le mot de passe
-print("Your generated password is : ", generer_mot_de_passe(longueur_mot_de_passe))
+# Generate and display the password
+print("Your generate password is : ", generate_password(password_length))
